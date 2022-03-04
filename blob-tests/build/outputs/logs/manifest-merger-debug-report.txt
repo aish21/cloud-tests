@@ -1,0 +1,64 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:2:1-28:12
+MERGED from [:microsoft-azure-storage] C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:1-22:12
+INJECTED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:3:5-50
+		INJECTED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml
+		INJECTED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:5:5-32
+		INJECTED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml
+		INJECTED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:4:5-28
+uses-sdk
+ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:7:5-9:41
+MERGED from [:microsoft-azure-storage] C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-18:41
+MERGED from [:microsoft-azure-storage] C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-18:41
+INJECTED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml
+		INJECTED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:11:5-67
+MERGED from [:microsoft-azure-storage] C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:5-67
+MERGED from [:microsoft-azure-storage] C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:11:22-64
+application
+ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:13:5-26:19
+	android:label
+		ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:15:9-45
+	android:allowBackup
+		ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:17:9-40
+activity#com.microsoft.azure.storage.samples.MainActivity
+ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:18:9-25:20
+	android:label
+		ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:19:13-76
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:21:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\Aishwarya Singh\Desktop\azure-storage-android\microsoft-azure-storage-samples\AndroidManifest.xml:23:27-74

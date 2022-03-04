@@ -1,0 +1,2 @@
+com/microsoft/azure/storage/samples/blob/BlobGettingStartedTask.java
+ com.microsoft.azure.storage.samples.blob.BlobGettingStartedTask

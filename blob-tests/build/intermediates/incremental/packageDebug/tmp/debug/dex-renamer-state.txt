@@ -1,0 +1,4 @@
+#Thu Feb 24 11:34:28 SGT 2022
+base.0=C\:\\Users\\Aishwarya Singh\\Desktop\\azure-storage-android\\microsoft-azure-storage-samples\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

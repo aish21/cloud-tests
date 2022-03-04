@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Aishwarya Singh\\Desktop\\azure-storage-android\\microsoft-azure-storage-samples\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Aishwarya Singh\\Desktop\\azure-storage-android\\microsoft-azure-storage-samples\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "8,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "463,59,119,204,291,378",
+                        "endColumns": "52,58,83,85,85,83",
+                        "endOffsets": "511,113,198,285,372,457"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,8,9,10",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "169,222,281,441,527,613",
+                        "endColumns": "52,58,83,85,85,83",
+                        "endOffsets": "217,276,360,522,608,692"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Aishwarya Singh\\Desktop\\azure-storage-android\\microsoft-azure-storage-samples\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Aishwarya Singh\\Desktop\\azure-storage-android\\microsoft-azure-storage-samples\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "192,525",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "484,682"
+                    },
+                    "to": {
+                        "startLines": "11,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "697,988",
+                        "endLines": "17,20",
+                        "endColumns": "12,12",
+                        "endOffsets": "983,1143"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Aishwarya Singh\\Desktop\\azure-storage-android\\microsoft-azure-storage\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "365",
+                        "endColumns": "75",
+                        "endOffsets": "436"
+                    }
+                }
+            ]
+        }
+    ]
+}
