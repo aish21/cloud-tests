@@ -18,6 +18,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
+import com.example.cameraretimg.EncodeData;
 
 import java.nio.ByteBuffer;
 
@@ -171,6 +172,9 @@ public class MainActivity extends AppCompatActivity implements ImageReader.OnIma
         imageConverter.run();
         rgbFrameBitmap = Bitmap.createBitmap(previewWidth, previewHeight, Bitmap.Config.ARGB_8888);
         rgbFrameBitmap.setPixels(rgbBytes, 0, previewWidth, 0, 0, previewWidth, previewHeight);
+        Log.v("Bitmap data", String.valueOf(rgbFrameBitmap));
+        String base64String = EncodeData.convert(rgbFrameBitmap);
+        Log.v("String Data", base64String);
         postInferenceCallback.run();
     }
 
