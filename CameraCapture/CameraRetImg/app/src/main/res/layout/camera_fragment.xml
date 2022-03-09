@@ -8,4 +8,20 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true" />
 
+    <Button
+        android:id="@+id/runBlobGettingStartedSampleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="runBlobGettingStartedSample"
+        android:text="send frames" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
 </RelativeLayout>

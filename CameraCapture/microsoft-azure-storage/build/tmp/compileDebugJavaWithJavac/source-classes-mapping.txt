@@ -1,0 +1,595 @@
+com/microsoft/azure/storage/table/TableQuery.java
+ com.microsoft.azure.storage.table.TableQuery
+ com.microsoft.azure.storage.table.TableQuery$Operators
+ com.microsoft.azure.storage.table.TableQuery$QueryComparisons
+com/microsoft/azure/storage/MetricsProperties.java
+ com.microsoft.azure.storage.MetricsProperties
+com/microsoft/azure/storage/SharedAccessPolicy.java
+ com.microsoft.azure.storage.SharedAccessPolicy
+com/microsoft/azure/storage/table/CloudTable.java
+ com.microsoft.azure.storage.table.CloudTable
+ com.microsoft.azure.storage.table.CloudTable$1
+ com.microsoft.azure.storage.table.CloudTable$2
+com/microsoft/azure/storage/core/SR.java
+ com.microsoft.azure.storage.core.SR
+com/microsoft/azure/storage/file/FileRangeHandler.java
+ com.microsoft.azure.storage.file.FileRangeHandler
+com/microsoft/azure/storage/table/DynamicTableEntity.java
+ com.microsoft.azure.storage.table.DynamicTableEntity
+com/microsoft/azure/storage/StorageUri.java
+ com.microsoft.azure.storage.StorageUri
+ com.microsoft.azure.storage.StorageUri$1
+com/microsoft/azure/storage/table/PropertyPair.java
+ com.microsoft.azure.storage.table.PropertyPair
+com/microsoft/azure/storage/file/ShareListingDetails.java
+ com.microsoft.azure.storage.file.ShareListingDetails
+com/microsoft/azure/storage/core/SharedAccessSignatureHelper.java
+ com.microsoft.azure.storage.core.SharedAccessSignatureHelper
+com/microsoft/azure/storage/blob/PageRange.java
+ com.microsoft.azure.storage.blob.PageRange
+com/microsoft/azure/storage/blob/StandardBlobTier.java
+ com.microsoft.azure.storage.blob.StandardBlobTier
+com/microsoft/azure/storage/blob/LeaseStatus.java
+ com.microsoft.azure.storage.blob.LeaseStatus
+com/microsoft/azure/storage/blob/BlobContainerPermissions.java
+ com.microsoft.azure.storage.blob.BlobContainerPermissions
+com/microsoft/azure/storage/ResultContinuationType.java
+ com.microsoft.azure.storage.ResultContinuationType
+com/microsoft/azure/storage/CorsRule.java
+ com.microsoft.azure.storage.CorsRule
+com/microsoft/azure/storage/core/ListResponse.java
+ com.microsoft.azure.storage.core.ListResponse
+com/microsoft/azure/storage/core/StorageRequest.java
+ com.microsoft.azure.storage.core.StorageRequest
+ com.microsoft.azure.storage.core.StorageRequest$1
+com/microsoft/azure/storage/table/EntityProperty.java
+ com.microsoft.azure.storage.table.EntityProperty
+com/microsoft/azure/storage/core/LogConstants.java
+ com.microsoft.azure.storage.core.LogConstants
+com/microsoft/azure/storage/CloudStorageAccount.java
+ com.microsoft.azure.storage.CloudStorageAccount
+ com.microsoft.azure.storage.CloudStorageAccount$1
+ com.microsoft.azure.storage.CloudStorageAccount$2
+ com.microsoft.azure.storage.CloudStorageAccount$3
+ com.microsoft.azure.storage.CloudStorageAccount$4
+ com.microsoft.azure.storage.CloudStorageAccount$5
+ com.microsoft.azure.storage.CloudStorageAccount$6
+ com.microsoft.azure.storage.CloudStorageAccount$7
+ com.microsoft.azure.storage.CloudStorageAccount$ConnectionStringFilter
+com/microsoft/azure/storage/IPRange.java
+ com.microsoft.azure.storage.IPRange
+com/microsoft/azure/storage/SharedAccessProtocols.java
+ com.microsoft.azure.storage.SharedAccessProtocols
+com/microsoft/azure/storage/table/EdmType.java
+ com.microsoft.azure.storage.table.EdmType
+com/microsoft/azure/storage/RequestResult.java
+ com.microsoft.azure.storage.RequestResult
+com/microsoft/azure/storage/blob/RehydrationStatus.java
+ com.microsoft.azure.storage.blob.RehydrationStatus
+com/microsoft/azure/storage/file/FileOutputStream.java
+ com.microsoft.azure.storage.file.FileOutputStream
+ com.microsoft.azure.storage.file.FileOutputStream$1
+com/microsoft/azure/storage/file/FileRequest.java
+ com.microsoft.azure.storage.file.FileRequest
+ com.microsoft.azure.storage.file.FileRequest$1
+com/microsoft/azure/storage/table/MimePart.java
+ com.microsoft.azure.storage.table.MimePart
+com/microsoft/azure/storage/core/TableCanonicalizer.java
+ com.microsoft.azure.storage.core.TableCanonicalizer
+com/microsoft/azure/storage/table/TablePermissions.java
+ com.microsoft.azure.storage.table.TablePermissions
+com/microsoft/azure/storage/file/FileProperties.java
+ com.microsoft.azure.storage.file.FileProperties
+com/microsoft/azure/storage/blob/BlockEntryListSerializer.java
+ com.microsoft.azure.storage.blob.BlockEntryListSerializer
+com/microsoft/azure/storage/queue/QueueListHandler.java
+ com.microsoft.azure.storage.queue.QueueListHandler
+com/microsoft/azure/storage/blob/BlobAttributes.java
+ com.microsoft.azure.storage.blob.BlobAttributes
+com/microsoft/azure/storage/table/EntityResolver.java
+ com.microsoft.azure.storage.table.EntityResolver
+com/microsoft/azure/storage/RetryExponentialRetry.java
+ com.microsoft.azure.storage.RetryExponentialRetry
+com/microsoft/azure/storage/file/ShareListHandler.java
+ com.microsoft.azure.storage.file.ShareListHandler
+com/microsoft/azure/storage/analytics/StorageService.java
+ com.microsoft.azure.storage.analytics.StorageService
+com/microsoft/azure/storage/ResponseReceivedEvent.java
+ com.microsoft.azure.storage.ResponseReceivedEvent
+com/microsoft/azure/storage/blob/BlockEntry.java
+ com.microsoft.azure.storage.blob.BlockEntry
+com/microsoft/azure/storage/SharedAccessPolicyHandler.java
+ com.microsoft.azure.storage.SharedAccessPolicyHandler
+com/microsoft/azure/storage/ErrorReceivingResponseEvent.java
+ com.microsoft.azure.storage.ErrorReceivingResponseEvent
+com/microsoft/azure/storage/file/ShareStats.java
+ com.microsoft.azure.storage.file.ShareStats
+com/microsoft/azure/storage/analytics/LogBlobIterable.java
+ com.microsoft.azure.storage.analytics.LogBlobIterable
+com/microsoft/azure/storage/blob/BlockSearchMode.java
+ com.microsoft.azure.storage.blob.BlockSearchMode
+com/microsoft/azure/storage/ResultContinuation.java
+ com.microsoft.azure.storage.ResultContinuation
+com/microsoft/azure/storage/file/FileDirectoryAttributes.java
+ com.microsoft.azure.storage.file.FileDirectoryAttributes
+com/microsoft/azure/storage/StorageCredentialsAccountAndKey.java
+ com.microsoft.azure.storage.StorageCredentialsAccountAndKey
+com/microsoft/azure/storage/blob/PageOperationType.java
+ com.microsoft.azure.storage.blob.PageOperationType
+com/microsoft/azure/storage/queue/QueueResponse.java
+ com.microsoft.azure.storage.queue.QueueResponse
+com/microsoft/azure/storage/RetryingEvent.java
+ com.microsoft.azure.storage.RetryingEvent
+com/microsoft/azure/storage/blob/PageRangeHandler.java
+ com.microsoft.azure.storage.blob.PageRangeHandler
+com/microsoft/azure/storage/core/BlobQueueFileCanonicalizer.java
+ com.microsoft.azure.storage.core.BlobQueueFileCanonicalizer
+com/microsoft/azure/storage/table/TableRequest.java
+ com.microsoft.azure.storage.table.TableRequest
+com/microsoft/azure/storage/file/SharedAccessFilePolicy.java
+ com.microsoft.azure.storage.file.SharedAccessFilePolicy
+com/microsoft/azure/storage/blob/BlockListingFilter.java
+ com.microsoft.azure.storage.blob.BlockListingFilter
+com/microsoft/azure/storage/StorageLocation.java
+ com.microsoft.azure.storage.StorageLocation
+com/microsoft/azure/storage/StorageCredentialsSharedAccessSignature.java
+ com.microsoft.azure.storage.StorageCredentialsSharedAccessSignature
+com/microsoft/azure/storage/blob/ListBlobItem.java
+ com.microsoft.azure.storage.blob.ListBlobItem
+com/microsoft/azure/storage/table/MimeHelper.java
+ com.microsoft.azure.storage.table.MimeHelper
+com/microsoft/azure/storage/queue/CloudQueueMessage.java
+ com.microsoft.azure.storage.queue.CloudQueueMessage
+com/microsoft/azure/storage/blob/CloudBlockBlob.java
+ com.microsoft.azure.storage.blob.CloudBlockBlob
+ com.microsoft.azure.storage.blob.CloudBlockBlob$1
+ com.microsoft.azure.storage.blob.CloudBlockBlob$2
+ com.microsoft.azure.storage.blob.CloudBlockBlob$3
+ com.microsoft.azure.storage.blob.CloudBlockBlob$4
+com/microsoft/azure/storage/blob/LeaseDuration.java
+ com.microsoft.azure.storage.blob.LeaseDuration
+com/microsoft/azure/storage/NameValidator.java
+ com.microsoft.azure.storage.NameValidator
+com/microsoft/azure/storage/blob/PageRangeDiffHandler.java
+ com.microsoft.azure.storage.blob.PageRangeDiffHandler
+com/microsoft/azure/storage/core/CanonicalizerFactory.java
+ com.microsoft.azure.storage.core.CanonicalizerFactory
+com/microsoft/azure/storage/RequestCompletedEvent.java
+ com.microsoft.azure.storage.RequestCompletedEvent
+com/microsoft/azure/storage/core/LazySegmentedIterator.java
+ com.microsoft.azure.storage.core.LazySegmentedIterator
+com/microsoft/azure/storage/table/TablePayloadFormat.java
+ com.microsoft.azure.storage.table.TablePayloadFormat
+com/microsoft/azure/storage/analytics/LogBlobIterator.java
+ com.microsoft.azure.storage.analytics.LogBlobIterator
+com/microsoft/azure/storage/table/TableEntity.java
+ com.microsoft.azure.storage.table.TableEntity
+com/microsoft/azure/storage/StorageException.java
+ com.microsoft.azure.storage.StorageException
+com/microsoft/azure/storage/file/FileServiceProperties.java
+ com.microsoft.azure.storage.file.FileServiceProperties
+com/microsoft/azure/storage/blob/ContainerListingDetails.java
+ com.microsoft.azure.storage.blob.ContainerListingDetails
+com/microsoft/azure/storage/analytics/LogRecordIterable.java
+ com.microsoft.azure.storage.analytics.LogRecordIterable
+com/microsoft/azure/storage/queue/QueueRequest.java
+ com.microsoft.azure.storage.queue.QueueRequest
+com/microsoft/azure/storage/table/TableDeserializer.java
+ com.microsoft.azure.storage.table.TableDeserializer
+com/microsoft/azure/storage/core/BaseResponse.java
+ com.microsoft.azure.storage.core.BaseResponse
+com/microsoft/azure/storage/table/TableServiceException.java
+ com.microsoft.azure.storage.table.TableServiceException
+com/microsoft/azure/storage/LoggingProperties.java
+ com.microsoft.azure.storage.LoggingProperties
+com/microsoft/azure/storage/blob/CloudBlobDirectory.java
+ com.microsoft.azure.storage.blob.CloudBlobDirectory
+com/microsoft/azure/storage/file/FileRange.java
+ com.microsoft.azure.storage.file.FileRange
+com/microsoft/azure/storage/table/TableConstants.java
+ com.microsoft.azure.storage.table.TableConstants
+ com.microsoft.azure.storage.table.TableConstants$ErrorConstants
+ com.microsoft.azure.storage.table.TableConstants$HeaderConstants
+com/microsoft/azure/storage/core/RequestLocationMode.java
+ com.microsoft.azure.storage.core.RequestLocationMode
+com/microsoft/azure/storage/file/CloudFileDirectory.java
+ com.microsoft.azure.storage.file.CloudFileDirectory
+ com.microsoft.azure.storage.file.CloudFileDirectory$1
+ com.microsoft.azure.storage.file.CloudFileDirectory$2
+ com.microsoft.azure.storage.file.CloudFileDirectory$3
+ com.microsoft.azure.storage.file.CloudFileDirectory$4
+ com.microsoft.azure.storage.file.CloudFileDirectory$5
+ com.microsoft.azure.storage.file.CloudFileDirectory$6
+com/microsoft/azure/storage/queue/QueuePermissions.java
+ com.microsoft.azure.storage.queue.QueuePermissions
+com/microsoft/azure/storage/table/TableUpdateType.java
+ com.microsoft.azure.storage.table.TableUpdateType
+com/microsoft/azure/storage/CorsProperties.java
+ com.microsoft.azure.storage.CorsProperties
+com/microsoft/azure/storage/blob/ContainerListHandler.java
+ com.microsoft.azure.storage.blob.ContainerListHandler
+com/microsoft/azure/storage/table/TableResult.java
+ com.microsoft.azure.storage.table.TableResult
+com/microsoft/azure/storage/ServiceProperties.java
+ com.microsoft.azure.storage.ServiceProperties
+com/microsoft/azure/storage/blob/BlobContainerAttributes.java
+ com.microsoft.azure.storage.blob.BlobContainerAttributes
+com/microsoft/azure/storage/SharedAccessAccountResourceType.java
+ com.microsoft.azure.storage.SharedAccessAccountResourceType
+com/microsoft/azure/storage/blob/BlobListingContext.java
+ com.microsoft.azure.storage.blob.BlobListingContext
+com/microsoft/azure/storage/core/UriQueryBuilder.java
+ com.microsoft.azure.storage.core.UriQueryBuilder
+com/microsoft/azure/storage/blob/BlobContainerProperties.java
+ com.microsoft.azure.storage.blob.BlobContainerProperties
+com/microsoft/azure/storage/file/FileDirectoryProperties.java
+ com.microsoft.azure.storage.file.FileDirectoryProperties
+com/microsoft/azure/storage/queue/CloudQueueClient.java
+ com.microsoft.azure.storage.queue.CloudQueueClient
+ com.microsoft.azure.storage.queue.CloudQueueClient$1
+com/microsoft/azure/storage/queue/QueueListingDetails.java
+ com.microsoft.azure.storage.queue.QueueListingDetails
+com/microsoft/azure/storage/core/StorageCredentialsHelper.java
+ com.microsoft.azure.storage.core.StorageCredentialsHelper
+com/microsoft/azure/storage/core/Utility.java
+ com.microsoft.azure.storage.core.Utility
+ com.microsoft.azure.storage.core.Utility$1
+com/microsoft/azure/storage/file/FileResponse.java
+ com.microsoft.azure.storage.file.FileResponse
+com/microsoft/azure/storage/core/LazySegmentedIterable.java
+ com.microsoft.azure.storage.core.LazySegmentedIterable
+com/microsoft/azure/storage/blob/LeaseState.java
+ com.microsoft.azure.storage.blob.LeaseState
+com/microsoft/azure/storage/queue/QueueMessageType.java
+ com.microsoft.azure.storage.queue.QueueMessageType
+com/microsoft/azure/android/BuildConfig.java
+ com.microsoft.azure.android.BuildConfig
+com/microsoft/azure/storage/GeoReplicationStats.java
+ com.microsoft.azure.storage.GeoReplicationStats
+com/microsoft/azure/storage/RetryNoRetry.java
+ com.microsoft.azure.storage.RetryNoRetry
+com/microsoft/azure/storage/core/PathUtility.java
+ com.microsoft.azure.storage.core.PathUtility
+com/microsoft/azure/storage/table/TableEntitySerializer.java
+ com.microsoft.azure.storage.table.TableEntitySerializer
+com/microsoft/azure/storage/ServiceClient.java
+ com.microsoft.azure.storage.ServiceClient
+ com.microsoft.azure.storage.ServiceClient$1
+ com.microsoft.azure.storage.ServiceClient$2
+ com.microsoft.azure.storage.ServiceClient$3
+com/microsoft/azure/storage/blob/BlobInputStream.java
+ com.microsoft.azure.storage.blob.BlobInputStream
+com/microsoft/azure/storage/table/SharedAccessTablePolicy.java
+ com.microsoft.azure.storage.table.SharedAccessTablePolicy
+com/microsoft/azure/storage/queue/QueueMessageHandler.java
+ com.microsoft.azure.storage.queue.QueueMessageHandler
+com/microsoft/azure/storage/SharedAccessHeaders.java
+ com.microsoft.azure.storage.SharedAccessHeaders
+com/microsoft/azure/storage/blob/ListBlobsResponse.java
+ com.microsoft.azure.storage.blob.ListBlobsResponse
+com/microsoft/azure/storage/table/CloudTableClient.java
+ com.microsoft.azure.storage.table.CloudTableClient
+ com.microsoft.azure.storage.table.CloudTableClient$1
+ com.microsoft.azure.storage.table.CloudTableClient$2
+ com.microsoft.azure.storage.table.CloudTableClient$3
+com/microsoft/azure/storage/file/FileConstants.java
+ com.microsoft.azure.storage.file.FileConstants
+com/microsoft/azure/storage/RetryContext.java
+ com.microsoft.azure.storage.RetryContext
+com/microsoft/azure/storage/ServiceStats.java
+ com.microsoft.azure.storage.ServiceStats
+com/microsoft/azure/storage/RetryPolicyFactory.java
+ com.microsoft.azure.storage.RetryPolicyFactory
+com/microsoft/azure/storage/file/FileSharePermissions.java
+ com.microsoft.azure.storage.file.FileSharePermissions
+com/microsoft/azure/storage/queue/QueueConstants.java
+ com.microsoft.azure.storage.queue.QueueConstants
+com/microsoft/azure/storage/blob/BlobProperties.java
+ com.microsoft.azure.storage.blob.BlobProperties
+com/microsoft/azure/storage/ServicePropertiesHandler.java
+ com.microsoft.azure.storage.ServicePropertiesHandler
+com/microsoft/azure/storage/StorageExtendedErrorInformation.java
+ com.microsoft.azure.storage.StorageExtendedErrorInformation
+com/microsoft/azure/storage/file/FileRequestOptions.java
+ com.microsoft.azure.storage.file.FileRequestOptions
+com/microsoft/azure/storage/core/StorageErrorHandler.java
+ com.microsoft.azure.storage.core.StorageErrorHandler
+com/microsoft/azure/storage/queue/QueueMessageSerializer.java
+ com.microsoft.azure.storage.queue.QueueMessageSerializer
+com/microsoft/azure/storage/StorageCredentials.java
+ com.microsoft.azure.storage.StorageCredentials
+com/microsoft/azure/storage/blob/BlobConstants.java
+ com.microsoft.azure.storage.blob.BlobConstants
+com/microsoft/azure/storage/file/FileInputStream.java
+ com.microsoft.azure.storage.file.FileInputStream
+com/microsoft/azure/storage/MetricsLevel.java
+ com.microsoft.azure.storage.MetricsLevel
+com/microsoft/azure/storage/blob/BlobType.java
+ com.microsoft.azure.storage.blob.BlobType
+com/microsoft/azure/storage/ServicePropertiesSerializer.java
+ com.microsoft.azure.storage.ServicePropertiesSerializer
+com/microsoft/azure/storage/core/NetworkInputStream.java
+ com.microsoft.azure.storage.core.NetworkInputStream
+com/microsoft/azure/storage/SharedAccessPolicySerializer.java
+ com.microsoft.azure.storage.SharedAccessPolicySerializer
+com/microsoft/azure/storage/SharedAccessAccountPermissions.java
+ com.microsoft.azure.storage.SharedAccessAccountPermissions
+com/microsoft/azure/storage/file/ListFileItem.java
+ com.microsoft.azure.storage.file.ListFileItem
+com/microsoft/azure/storage/file/FileShareProperties.java
+ com.microsoft.azure.storage.file.FileShareProperties
+com/microsoft/azure/storage/ResultSegment.java
+ com.microsoft.azure.storage.ResultSegment
+com/microsoft/azure/storage/blob/BlobContainerPublicAccessType.java
+ com.microsoft.azure.storage.blob.BlobContainerPublicAccessType
+com/microsoft/azure/storage/analytics/LogRecordIterator.java
+ com.microsoft.azure.storage.analytics.LogRecordIterator
+com/microsoft/azure/storage/blob/SharedAccessBlobPolicy.java
+ com.microsoft.azure.storage.blob.SharedAccessBlobPolicy
+com/microsoft/azure/storage/queue/CloudQueue.java
+ com.microsoft.azure.storage.queue.CloudQueue
+ com.microsoft.azure.storage.queue.CloudQueue$1
+ com.microsoft.azure.storage.queue.CloudQueue$10
+ com.microsoft.azure.storage.queue.CloudQueue$11
+ com.microsoft.azure.storage.queue.CloudQueue$12
+ com.microsoft.azure.storage.queue.CloudQueue$13
+ com.microsoft.azure.storage.queue.CloudQueue$2
+ com.microsoft.azure.storage.queue.CloudQueue$3
+ com.microsoft.azure.storage.queue.CloudQueue$4
+ com.microsoft.azure.storage.queue.CloudQueue$5
+ com.microsoft.azure.storage.queue.CloudQueue$6
+ com.microsoft.azure.storage.queue.CloudQueue$7
+ com.microsoft.azure.storage.queue.CloudQueue$8
+ com.microsoft.azure.storage.queue.CloudQueue$9
+com/microsoft/azure/storage/core/StreamMd5AndLength.java
+ com.microsoft.azure.storage.core.StreamMd5AndLength
+com/microsoft/azure/storage/blob/SharedAccessBlobPermissions.java
+ com.microsoft.azure.storage.blob.SharedAccessBlobPermissions
+com/microsoft/azure/storage/blob/BlobOutputStream.java
+ com.microsoft.azure.storage.blob.BlobOutputStream
+ com.microsoft.azure.storage.blob.BlobOutputStream$1
+ com.microsoft.azure.storage.blob.BlobOutputStream$2
+ com.microsoft.azure.storage.blob.BlobOutputStream$3
+com/microsoft/azure/storage/blob/BlockListHandler.java
+ com.microsoft.azure.storage.blob.BlockListHandler
+com/microsoft/azure/storage/blob/CloudBlobClient.java
+ com.microsoft.azure.storage.blob.CloudBlobClient
+ com.microsoft.azure.storage.blob.CloudBlobClient$1
+com/microsoft/azure/storage/file/DeleteShareSnapshotsOption.java
+ com.microsoft.azure.storage.file.DeleteShareSnapshotsOption
+com/microsoft/azure/storage/blob/BlobListingDetails.java
+ com.microsoft.azure.storage.blob.BlobListingDetails
+com/microsoft/azure/storage/analytics/LogRecord.java
+ com.microsoft.azure.storage.analytics.LogRecord
+com/microsoft/azure/storage/blob/SharedAccessBlobHeaders.java
+ com.microsoft.azure.storage.blob.SharedAccessBlobHeaders
+com/microsoft/azure/storage/DoesServiceRequest.java
+ com.microsoft.azure.storage.DoesServiceRequest
+com/microsoft/azure/storage/core/JsonUtilities.java
+ com.microsoft.azure.storage.core.JsonUtilities
+com/microsoft/azure/storage/file/FileAttributes.java
+ com.microsoft.azure.storage.file.FileAttributes
+com/microsoft/azure/storage/GeoReplicationStatus.java
+ com.microsoft.azure.storage.GeoReplicationStatus
+com/microsoft/azure/storage/queue/SharedAccessQueuePolicy.java
+ com.microsoft.azure.storage.queue.SharedAccessQueuePolicy
+com/microsoft/azure/storage/file/CloudFile.java
+ com.microsoft.azure.storage.file.CloudFile
+ com.microsoft.azure.storage.file.CloudFile$1
+ com.microsoft.azure.storage.file.CloudFile$10
+ com.microsoft.azure.storage.file.CloudFile$11
+ com.microsoft.azure.storage.file.CloudFile$12
+ com.microsoft.azure.storage.file.CloudFile$2
+ com.microsoft.azure.storage.file.CloudFile$3
+ com.microsoft.azure.storage.file.CloudFile$4
+ com.microsoft.azure.storage.file.CloudFile$5
+ com.microsoft.azure.storage.file.CloudFile$6
+ com.microsoft.azure.storage.file.CloudFile$7
+ com.microsoft.azure.storage.file.CloudFile$8
+ com.microsoft.azure.storage.file.CloudFile$9
+com/microsoft/azure/storage/blob/BlobListHandler.java
+ com.microsoft.azure.storage.blob.BlobListHandler
+com/microsoft/azure/storage/blob/PageRangeDiff.java
+ com.microsoft.azure.storage.blob.PageRangeDiff
+com/microsoft/azure/storage/table/TableResponse.java
+ com.microsoft.azure.storage.table.TableResponse
+com/microsoft/azure/storage/blob/PremiumPageBlobTier.java
+ com.microsoft.azure.storage.blob.PremiumPageBlobTier
+com/microsoft/azure/storage/blob/LeaseAction.java
+ com.microsoft.azure.storage.blob.LeaseAction
+ com.microsoft.azure.storage.blob.LeaseAction$1
+com/microsoft/azure/storage/queue/SharedAccessQueuePermissions.java
+ com.microsoft.azure.storage.queue.SharedAccessQueuePermissions
+com/microsoft/azure/storage/core/SegmentedStorageRequest.java
+ com.microsoft.azure.storage.core.SegmentedStorageRequest
+com/microsoft/azure/storage/SharedAccessAccountPolicy.java
+ com.microsoft.azure.storage.SharedAccessAccountPolicy
+com/microsoft/azure/storage/file/FileListHandler.java
+ com.microsoft.azure.storage.file.FileListHandler
+com/microsoft/azure/storage/table/ODataPayload.java
+ com.microsoft.azure.storage.table.ODataPayload
+com/microsoft/azure/storage/blob/BlobRequestOptions.java
+ com.microsoft.azure.storage.blob.BlobRequestOptions
+com/microsoft/azure/storage/table/TableRequestOptions.java
+ com.microsoft.azure.storage.table.TableRequestOptions
+ com.microsoft.azure.storage.table.TableRequestOptions$PropertyResolver
+com/microsoft/azure/storage/BaseEvent.java
+ com.microsoft.azure.storage.BaseEvent
+com/microsoft/azure/storage/queue/MessageUpdateFields.java
+ com.microsoft.azure.storage.queue.MessageUpdateFields
+com/microsoft/azure/storage/table/TableStorageErrorDeserializer.java
+ com.microsoft.azure.storage.table.TableStorageErrorDeserializer
+com/microsoft/azure/storage/core/ListingContext.java
+ com.microsoft.azure.storage.core.ListingContext
+com/microsoft/azure/storage/core/Canonicalizer.java
+ com.microsoft.azure.storage.core.Canonicalizer
+com/microsoft/azure/storage/ServiceStatsHandler.java
+ com.microsoft.azure.storage.ServiceStatsHandler
+com/microsoft/azure/storage/StorageEvent.java
+ com.microsoft.azure.storage.StorageEvent
+com/microsoft/azure/storage/core/ExecutionEngine.java
+ com.microsoft.azure.storage.core.ExecutionEngine
+ com.microsoft.azure.storage.core.ExecutionEngine$1
+com/microsoft/azure/storage/file/FileShareAttributes.java
+ com.microsoft.azure.storage.file.FileShareAttributes
+com/microsoft/azure/storage/analytics/CloudAnalyticsClient.java
+ com.microsoft.azure.storage.analytics.CloudAnalyticsClient
+ com.microsoft.azure.storage.analytics.CloudAnalyticsClient$1
+com/microsoft/azure/storage/table/MimeHeader.java
+ com.microsoft.azure.storage.table.MimeHeader
+com/microsoft/azure/storage/LocationMode.java
+ com.microsoft.azure.storage.LocationMode
+com/microsoft/azure/storage/table/TableOperation.java
+ com.microsoft.azure.storage.table.TableOperation
+ com.microsoft.azure.storage.table.TableOperation$1
+ com.microsoft.azure.storage.table.TableOperation$2
+ com.microsoft.azure.storage.table.TableOperation$3
+ com.microsoft.azure.storage.table.TableOperation$4
+com/microsoft/azure/storage/blob/CloudPageBlob.java
+ com.microsoft.azure.storage.blob.CloudPageBlob
+ com.microsoft.azure.storage.blob.CloudPageBlob$1
+ com.microsoft.azure.storage.blob.CloudPageBlob$2
+ com.microsoft.azure.storage.blob.CloudPageBlob$3
+ com.microsoft.azure.storage.blob.CloudPageBlob$4
+ com.microsoft.azure.storage.blob.CloudPageBlob$5
+com/microsoft/azure/storage/table/QueryTableOperation.java
+ com.microsoft.azure.storage.table.QueryTableOperation
+ com.microsoft.azure.storage.table.QueryTableOperation$1
+com/microsoft/azure/storage/analytics/LogRecordStreamReader.java
+ com.microsoft.azure.storage.analytics.LogRecordStreamReader
+com/microsoft/azure/storage/core/Logger.java
+ com.microsoft.azure.storage.core.Logger
+com/microsoft/azure/storage/RetryLinearRetry.java
+ com.microsoft.azure.storage.RetryLinearRetry
+com/microsoft/azure/storage/queue/QueueRequestOptions.java
+ com.microsoft.azure.storage.queue.QueueRequestOptions
+com/microsoft/azure/storage/core/Base64.java
+ com.microsoft.azure.storage.core.Base64
+com/microsoft/azure/storage/table/Ignore.java
+ com.microsoft.azure.storage.table.Ignore
+com/microsoft/azure/storage/core/BaseRequest.java
+ com.microsoft.azure.storage.core.BaseRequest
+com/microsoft/azure/storage/table/StoreAs.java
+ com.microsoft.azure.storage.table.StoreAs
+com/microsoft/azure/storage/Permissions.java
+ com.microsoft.azure.storage.Permissions
+com/microsoft/azure/storage/StorageErrorCodeStrings.java
+ com.microsoft.azure.storage.StorageErrorCodeStrings
+com/microsoft/azure/storage/RequestOptions.java
+ com.microsoft.azure.storage.RequestOptions
+com/microsoft/azure/storage/table/TableBatchOperation.java
+ com.microsoft.azure.storage.table.TableBatchOperation
+ com.microsoft.azure.storage.table.TableBatchOperation$1
+com/microsoft/azure/storage/LoggingOperations.java
+ com.microsoft.azure.storage.LoggingOperations
+com/microsoft/azure/storage/table/TableServiceEntity.java
+ com.microsoft.azure.storage.table.TableServiceEntity
+com/microsoft/azure/storage/SharedAccessAccountService.java
+ com.microsoft.azure.storage.SharedAccessAccountService
+com/microsoft/azure/storage/blob/CloudAppendBlob.java
+ com.microsoft.azure.storage.blob.CloudAppendBlob
+ com.microsoft.azure.storage.blob.CloudAppendBlob$1
+ com.microsoft.azure.storage.blob.CloudAppendBlob$2
+com/microsoft/azure/storage/table/SharedAccessTablePermissions.java
+ com.microsoft.azure.storage.table.SharedAccessTablePermissions
+com/microsoft/azure/storage/blob/DeleteSnapshotsOption.java
+ com.microsoft.azure.storage.blob.DeleteSnapshotsOption
+com/microsoft/azure/storage/blob/BlobRequest.java
+ com.microsoft.azure.storage.blob.BlobRequest
+ com.microsoft.azure.storage.blob.BlobRequest$1
+com/microsoft/azure/storage/file/SharedAccessFileHeaders.java
+ com.microsoft.azure.storage.file.SharedAccessFileHeaders
+com/microsoft/azure/storage/SendingRequestEvent.java
+ com.microsoft.azure.storage.SendingRequestEvent
+com/microsoft/azure/storage/blob/CopyStatus.java
+ com.microsoft.azure.storage.blob.CopyStatus
+com/microsoft/azure/storage/Constants.java
+ com.microsoft.azure.storage.Constants
+ com.microsoft.azure.storage.Constants$AnalyticsConstants
+ com.microsoft.azure.storage.Constants$HeaderConstants
+ com.microsoft.azure.storage.Constants$QueryConstants
+com/microsoft/azure/storage/table/TableOperationType.java
+ com.microsoft.azure.storage.table.TableOperationType
+com/microsoft/azure/storage/OperationContext.java
+ com.microsoft.azure.storage.OperationContext
+com/microsoft/azure/storage/blob/CloudBlob.java
+ com.microsoft.azure.storage.blob.CloudBlob
+ com.microsoft.azure.storage.blob.CloudBlob$1
+ com.microsoft.azure.storage.blob.CloudBlob$10
+ com.microsoft.azure.storage.blob.CloudBlob$11
+ com.microsoft.azure.storage.blob.CloudBlob$12
+ com.microsoft.azure.storage.blob.CloudBlob$13
+ com.microsoft.azure.storage.blob.CloudBlob$14
+ com.microsoft.azure.storage.blob.CloudBlob$15
+ com.microsoft.azure.storage.blob.CloudBlob$2
+ com.microsoft.azure.storage.blob.CloudBlob$3
+ com.microsoft.azure.storage.blob.CloudBlob$4
+ com.microsoft.azure.storage.blob.CloudBlob$5
+ com.microsoft.azure.storage.blob.CloudBlob$6
+ com.microsoft.azure.storage.blob.CloudBlob$7
+ com.microsoft.azure.storage.blob.CloudBlob$8
+ com.microsoft.azure.storage.blob.CloudBlob$9
+com/microsoft/azure/storage/file/CloudFileShare.java
+ com.microsoft.azure.storage.file.CloudFileShare
+ com.microsoft.azure.storage.file.CloudFileShare$1
+ com.microsoft.azure.storage.file.CloudFileShare$10
+ com.microsoft.azure.storage.file.CloudFileShare$2
+ com.microsoft.azure.storage.file.CloudFileShare$3
+ com.microsoft.azure.storage.file.CloudFileShare$4
+ com.microsoft.azure.storage.file.CloudFileShare$5
+ com.microsoft.azure.storage.file.CloudFileShare$6
+ com.microsoft.azure.storage.file.CloudFileShare$7
+ com.microsoft.azure.storage.file.CloudFileShare$8
+ com.microsoft.azure.storage.file.CloudFileShare$9
+com/microsoft/azure/storage/core/WrappedByteArrayOutputStream.java
+ com.microsoft.azure.storage.core.WrappedByteArrayOutputStream
+com/microsoft/azure/storage/file/CopyStatus.java
+ com.microsoft.azure.storage.file.CopyStatus
+com/microsoft/azure/storage/file/ShareStatsHandler.java
+ com.microsoft.azure.storage.file.ShareStatsHandler
+com/microsoft/azure/storage/file/FileRangeOperationType.java
+ com.microsoft.azure.storage.file.FileRangeOperationType
+com/microsoft/azure/storage/RetryPolicy.java
+ com.microsoft.azure.storage.RetryPolicy
+com/microsoft/azure/storage/StorageErrorCode.java
+ com.microsoft.azure.storage.StorageErrorCode
+com/microsoft/azure/storage/file/CopyState.java
+ com.microsoft.azure.storage.file.CopyState
+com/microsoft/azure/storage/RetryInfo.java
+ com.microsoft.azure.storage.RetryInfo
+com/microsoft/azure/storage/blob/BlobResponse.java
+ com.microsoft.azure.storage.blob.BlobResponse
+com/microsoft/azure/storage/StorageEventMultiCaster.java
+ com.microsoft.azure.storage.StorageEventMultiCaster
+com/microsoft/azure/storage/file/SharedAccessFilePermissions.java
+ com.microsoft.azure.storage.file.SharedAccessFilePermissions
+com/microsoft/azure/storage/file/CloudFileClient.java
+ com.microsoft.azure.storage.file.CloudFileClient
+ com.microsoft.azure.storage.file.CloudFileClient$1
+com/microsoft/azure/storage/blob/CopyState.java
+ com.microsoft.azure.storage.blob.CopyState
+com/microsoft/azure/storage/AccessCondition.java
+ com.microsoft.azure.storage.AccessCondition
+com/microsoft/azure/storage/StorageCredentialsAnonymous.java
+ com.microsoft.azure.storage.StorageCredentialsAnonymous
+com/microsoft/azure/storage/table/ODataConstants.java
+ com.microsoft.azure.storage.table.ODataConstants
+com/microsoft/azure/storage/blob/CloudBlobContainer.java
+ com.microsoft.azure.storage.blob.CloudBlobContainer
+ com.microsoft.azure.storage.blob.CloudBlobContainer$1
+ com.microsoft.azure.storage.blob.CloudBlobContainer$10
+ com.microsoft.azure.storage.blob.CloudBlobContainer$11
+ com.microsoft.azure.storage.blob.CloudBlobContainer$12
+ com.microsoft.azure.storage.blob.CloudBlobContainer$13
+ com.microsoft.azure.storage.blob.CloudBlobContainer$14
+ com.microsoft.azure.storage.blob.CloudBlobContainer$15
+ com.microsoft.azure.storage.blob.CloudBlobContainer$2
+ com.microsoft.azure.storage.blob.CloudBlobContainer$3
+ com.microsoft.azure.storage.blob.CloudBlobContainer$4
+ com.microsoft.azure.storage.blob.CloudBlobContainer$5
+ com.microsoft.azure.storage.blob.CloudBlobContainer$6
+ com.microsoft.azure.storage.blob.CloudBlobContainer$7
+ com.microsoft.azure.storage.blob.CloudBlobContainer$8
+ com.microsoft.azure.storage.blob.CloudBlobContainer$9
+com/microsoft/azure/storage/CorsHttpMethods.java
+ com.microsoft.azure.storage.CorsHttpMethods

@@ -13,6 +13,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.util.Size;
 import android.view.Surface;
+import android.view.View;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -21,8 +23,14 @@ import androidx.core.app.ActivityCompat;
 import com.example.cameraretimg.EncodeData;
 
 import java.nio.ByteBuffer;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+
+import com.example.cameraretimg.SendBlob;
 
 public class MainActivity extends AppCompatActivity implements ImageReader.OnImageAvailableListener{
+
+    public static final String storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=vpstest;AccountKey=1uZCDaZZZ8xKib63qfe2Oxn/kjRtS2YgzPWoyKIrVrk+WD9x9tMsjgL/wWjyHkNSfl+8QunKoGgv+AStr0eKsA==;EndpointSuffix=core.windows.net";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +46,11 @@ public class MainActivity extends AppCompatActivity implements ImageReader.OnIma
             //TODO show live camera footage
             setFragment();
         }
+    }
+
+    public void runBlobGettingStartedSample(View view) {
+        new SendBlob(this, (TextView) findViewById(R.id.textView))
+                .execute();
     }
 
     @Override
